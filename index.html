@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Marko</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="./img/logo6.png" alt=""></a>
+        </div>
+        <button class="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">My skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">My Work</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section-title-intro"><strong>Marko Korolija</strong></h1>
+        <img src="img/image__1_-removebg-preview.png" alt="a picture of me" class="intro-img">
+        <p class="section-subtitle section-subtitle-intro">front-end dev</p>
+    </section>
+
+    <section class="my-skills" id="skills">
+        <h2 class="section-title section-title-skills">My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <img src="img/html2.svg" alt="">
+                <p>Writing clear and semantic HTML code is an indispesable skill for any web developer </p>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <img src="img/css2.svg" alt="">
+                <p>Without CSS the internet would be ugly. My CSS skills include writing responsive code, using layout methods such as flex and grid for smoother display of elements. When it comes to pre-processors, i'm most familiar with Sass</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <img src="img/javascript2.svg" alt="">
+                <p>My knowledge of JS encompasses fundamental concepts such as</p>
+            </div>
+            <div class="skill">
+                <h3>Vue</h3>
+                <img src="img/vue.png" alt="">
+                <p></p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section-title">My work</h2>
+        <p class="section-subtitle section-subtitle-work">A selection of my range of work</p>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <h4>Film comparison</h2>
+                <p>Compare films based on criteria such as awards and votes. <span>Tech: HTML, CSS, JS</span></p>
+                <a href="https://markok96.github.io/film_comparison/" target="_blank" rel="noopener noreferrer" class="portfolio-item">
+                    <img src="img/film_comparison_full.png" alt="" class="portfolio-img">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <h4>Always Outdoors</h4>
+                <p>Web page for fictional tourist agency. <span>Tech: HTML, CSS</span></p>
+                <a href="https://markok96.github.io/always_outdoors/" target="_blank" rel="noopener noreferrer" class="portfolio-item">
+                    <img src="img/always_outdoors_cropped.png" alt="" class="portfolio-img">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <h4>Weather</h4>
+                <p>Pulls weather data from an API and displays it. <span>Tech: HTML, CSS, JS</span> </p>
+                <a href="https://markok96.github.io/weatherApp/" target="_blank" rel="noopener noreferrer" class="portfolio-item">
+                    <img src="img/weather-cropped.png" alt="" class="portfolio-img">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <h4>Random Meal Generator</h4>
+                <p>Pulls random meal from an API and displays it to user. <span>Tech: HTML, CSS, JS</span></p>
+                <a href="https://markok96.github.io/randomMealGenerator/" target="_blank" rel="noopener noreferrer" class="portfolio-item">
+                    <img src="img/meal_generator_full.png" alt="" class="portfolio-img">
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <h4>Numguesser</h4>
+                <p>Very simple game in which user tries to guess the number. <span>Tech: HTML, CSS, JS</span></p>
+                <a href="https://markok96.github.io/numguesser/" target="_blank" rel="noopener noreferrer" class="portfolio-item">
+                    <img src="img/numguesser.png" alt="" class="portfolio-img">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a href="https://github.com/markok96" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:mkorolija3@gmail.com" class="footer-email">mkorolija3@gmail.com</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
