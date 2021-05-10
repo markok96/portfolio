@@ -365,7 +365,7 @@ h3 { font-size: var(--fs-h3); }
 
 .portfolio-img {
     height: 300px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: auto;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
@@ -374,7 +374,7 @@ h3 { font-size: var(--fs-h3); }
 
 .portfolio-img:hover,
 .portfolio-item:focus .portfolio-img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     opacity: .9;
 }
 
